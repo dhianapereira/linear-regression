@@ -12,7 +12,7 @@ function removeUndefined(array) {
 
 function readSpreadsheet() {
   const xlsx = require("xlsx");
-  const wb = xlsx.readFile("spreadsheet.xlsx", { cellDates: true });
+  const wb = xlsx.readFile("covid_AL_spreadsheet.xlsx", { cellDates: true });
   const ws = wb.Sheets["Página1"];
 
   const data = xlsx.utils.sheet_to_json(ws);
@@ -52,7 +52,7 @@ function trainingModel() {
   const xs = tf.tensor2d(x, [x.length, 1]);
   const ys = tf.tensor2d(y, [y.length, 1]);
 
-  model.fit(xs, ys, { epochs: 2000 }).then(() => {
+  model.fit(xs, ys, { epochs: 50000 }).then(() => {
     model.predict(tf.tensor2d(prediction, [prediction.length, 1])).print();
   });
 }
