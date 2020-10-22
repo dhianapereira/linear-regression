@@ -18,11 +18,11 @@ function readSpreadsheet() {
   const data = xlsx.utils.sheet_to_json(ws);
 
   x = data.map((record) => {
-    return record.newCases;
+    return record.accumulatedCases;
   });
 
   y = data.map((record) => {
-    return record.newDeaths;
+    return record.accumulatedDeaths;
   });
 
   prediction = data.map((record) => {
