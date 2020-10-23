@@ -4,7 +4,7 @@ Regressão linear com TensorFlow dos casos de COVID-19 em Alagoas com dados do d
 
 ## Como testar?
 
-Primeiro instale o tensorflow com o comando: **npm install @tensorflow/tfjs** e instale o xlsx com o comando: **npm install xlsx**. Depois basta executar no terminal, dentro da pasta public, o seguinte comando: **node linear_regression.js**
+Primeiro instale o tensorflow com o comando: **npm install @tensorflow/tfjs** e instale o xlsx com o comando: **npm install xlsx**. Depois basta executar no terminal, dentro da pasta src, o seguinte comando: **node linear_regression.js**
 
 # Resultados
 
@@ -37,4 +37,4 @@ Obs.: Os valores de mortes previstas foram arredondados para baixo.
 
 - Versão do node utilizada: v12.19.0;
 - Documentação do TensorFlow.js: *https://www.tensorflow.org/js*;
-- É apenas uma atividade da disciplina de Tópicos Especiais de Informática (TEIN).
+- É apenas uma atividade da disciplina de Tópicos Especiais em Informática (TEIN).
