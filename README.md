@@ -1,13 +1,21 @@
 # Regressão Linear
 
-Regressão linear com TensorFlow dos casos de COVID-19 em Alagoas com dados do dia 25 de Fevereiro de 2020 à 30 de Setembro de 2020. Os dados de predição são do dia 1 até o dia 20 de Outubro de 2020.
+Regressão linear com TensorFlow dos casos de COVID-19 em Alagoas.
 
-## Como testar?
+## Dados para o treinamento
 
-Primeiro instale o tensorflow com o comando: **npm install @tensorflow/tfjs** e instale o xlsx com o comando: **npm install xlsx**. Depois basta executar no terminal, dentro da pasta src, o seguinte comando: **node linear_regression.js**
+O modelo foi construído com dados do dia 25 de Fevereiro de 2020 à 30 de Setembro de 2020. Os dados de predição são do dia 1 até o dia 20 de Outubro de 2020.
 
-# Observações
+## Como executar?
 
-- Versão do node utilizada: v12.19.0;
-- Documentação do TensorFlow.js: *https://www.tensorflow.org/js*;
-- É apenas uma atividade da disciplina de Tópicos Especiais em Informática (TEIN).
+- Clone o repositório
+- Instale o tensorflow com o comando: `npm install @tensorflow/tfjs`
+- Instale o xlsx com o comando: `npm install xlsx`
+- Executar no terminal, dentro da pasta src, o seguinte comando: `node linear_regression.js`
+
+Agora você pode acessar os resultados da predição dos casos do dia 1 até o dia 20 de Outubro de 2020.
+
+## Observações
+
+- Versão do node utilizada: v12.19.0
+- [Documentação do TensorFlow.js](https://www.tensorflow.org/js)
