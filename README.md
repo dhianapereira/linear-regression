@@ -11,7 +11,7 @@ O modelo foi construído com dados do dia 25 de Fevereiro de 2020 à 30 de Setem
 - Clone o repositório
 - Instale o tensorflow com o comando: `npm install @tensorflow/tfjs`
 - Instale o xlsx com o comando: `npm install xlsx`
-- Executar no terminal, dentro da pasta src, o seguinte comando: `node linear_regression.js`
+- Execute no terminal, dentro da pasta src, o seguinte comando: `node linear_regression.js`
 
 Agora você pode acessar os resultados da predição dos casos do dia 1 até o dia 20 de Outubro de 2020.
 
